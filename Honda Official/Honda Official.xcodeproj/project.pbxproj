@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC16B6511FD1580900291AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6501FD1580900291AC0 /* AppDelegate.swift */; };
+		AC16B6531FD1580900291AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6521FD1580900291AC0 /* ViewController.swift */; };
+		AC16B6561FD1580900291AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B6541FD1580900291AC0 /* Main.storyboard */; };
+		AC16B6581FD1580900291AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16B6571FD1580900291AC0 /* Assets.xcassets */; };
+		AC16B65B1FD1580900291AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B6591FD1580900291AC0 /* LaunchScreen.storyboard */; };
+		AC16B6661FD1580A00291AC0 /* Honda_OfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6651FD1580A00291AC0 /* Honda_OfficialTests.swift */; };
+		AC16B6711FD1580A00291AC0 /* Honda_OfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6701FD1580A00291AC0 /* Honda_OfficialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC16B6621FD1580A00291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B6451FD1580900291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B64C1FD1580900291AC0;
+			remoteInfo = "Honda Official";
+		};
+		AC16B66D1FD1580A00291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B6451FD1580900291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B64C1FD1580900291AC0;
+			remoteInfo = "Honda Official";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC16B64D1FD1580900291AC0 /* Honda Official.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honda Official.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6501FD1580900291AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC16B6521FD1580900291AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC16B6551FD1580900291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC16B6571FD1580900291AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC16B65A1FD1580900291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC16B65C1FD1580900291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B6611FD1580A00291AC0 /* Honda OfficialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Honda OfficialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6651FD1580A00291AC0 /* Honda_OfficialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honda_OfficialTests.swift; sourceTree = "<group>"; };
+		AC16B6671FD1580A00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B66C1FD1580A00291AC0 /* Honda OfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Honda OfficialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6701FD1580A00291AC0 /* Honda_OfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honda_OfficialUITests.swift; sourceTree = "<group>"; };
+		AC16B6721FD1580A00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC16B64A1FD1580900291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B65E1FD1580A00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6691FD1580A00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC16B6441FD1580900291AC0 = {
+			isa = PBXGroup;
+			children = (
+				AC16B64F1FD1580900291AC0 /* Honda Official */,
+				AC16B6641FD1580A00291AC0 /* Honda OfficialTests */,
+				AC16B66F1FD1580A00291AC0 /* Honda OfficialUITests */,
+				AC16B64E1FD1580900291AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC16B64E1FD1580900291AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B64D1FD1580900291AC0 /* Honda Official.app */,
+				AC16B6611FD1580A00291AC0 /* Honda OfficialTests.xctest */,
+				AC16B66C1FD1580A00291AC0 /* Honda OfficialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC16B64F1FD1580900291AC0 /* Honda Official */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6501FD1580900291AC0 /* AppDelegate.swift */,
+				AC16B6521FD1580900291AC0 /* ViewController.swift */,
+				AC16B6541FD1580900291AC0 /* Main.storyboard */,
+				AC16B6571FD1580900291AC0 /* Assets.xcassets */,
+				AC16B6591FD1580900291AC0 /* LaunchScreen.storyboard */,
+				AC16B65C1FD1580900291AC0 /* Info.plist */,
+			);
+			path = "Honda Official";
+			sourceTree = "<group>";
+		};
+		AC16B6641FD1580A00291AC0 /* Honda OfficialTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6651FD1580A00291AC0 /* Honda_OfficialTests.swift */,
+				AC16B6671FD1580A00291AC0 /* Info.plist */,
+			);
+			path = "Honda OfficialTests";
+			sourceTree = "<group>";
+		};
+		AC16B66F1FD1580A00291AC0 /* Honda OfficialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6701FD1580A00291AC0 /* Honda_OfficialUITests.swift */,
+				AC16B6721FD1580A00291AC0 /* Info.plist */,
+			);
+			path = "Honda OfficialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC16B64C1FD1580900291AC0 /* Honda Official */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B6751FD1580A00291AC0 /* Build configuration list for PBXNativeTarget "Honda Official" */;
+			buildPhases = (
+				AC16B6491FD1580900291AC0 /* Sources */,
+				AC16B64A1FD1580900291AC0 /* Frameworks */,
+				AC16B64B1FD1580900291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Honda Official";
+			productName = "Honda Official";
+			productReference = AC16B64D1FD1580900291AC0 /* Honda Official.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC16B6601FD1580A00291AC0 /* Honda OfficialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B6781FD1580A00291AC0 /* Build configuration list for PBXNativeTarget "Honda OfficialTests" */;
+			buildPhases = (
+				AC16B65D1FD1580A00291AC0 /* Sources */,
+				AC16B65E1FD1580A00291AC0 /* Frameworks */,
+				AC16B65F1FD1580A00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B6631FD1580A00291AC0 /* PBXTargetDependency */,
+			);
+			name = "Honda OfficialTests";
+			productName = "Honda OfficialTests";
+			productReference = AC16B6611FD1580A00291AC0 /* Honda OfficialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC16B66B1FD1580A00291AC0 /* Honda OfficialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B67B1FD1580A00291AC0 /* Build configuration list for PBXNativeTarget "Honda OfficialUITests" */;
+			buildPhases = (
+				AC16B6681FD1580A00291AC0 /* Sources */,
+				AC16B6691FD1580A00291AC0 /* Frameworks */,
+				AC16B66A1FD1580A00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B66E1FD1580A00291AC0 /* PBXTargetDependency */,
+			);
+			name = "Honda OfficialUITests";
+			productName = "Honda OfficialUITests";
+			productReference = AC16B66C1FD1580A00291AC0 /* Honda OfficialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC16B6451FD1580900291AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					AC16B64C1FD1580900291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC16B6601FD1580A00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B64C1FD1580900291AC0;
+					};
+					AC16B66B1FD1580A00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B64C1FD1580900291AC0;
+					};
+				};
+			};
+			buildConfigurationList = AC16B6481FD1580900291AC0 /* Build configuration list for PBXProject "Honda Official" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC16B6441FD1580900291AC0;
+			productRefGroup = AC16B64E1FD1580900291AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC16B64C1FD1580900291AC0 /* Honda Official */,
+				AC16B6601FD1580A00291AC0 /* Honda OfficialTests */,
+				AC16B66B1FD1580A00291AC0 /* Honda OfficialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC16B64B1FD1580900291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B65B1FD1580900291AC0 /* LaunchScreen.storyboard in Resources */,
+				AC16B6581FD1580900291AC0 /* Assets.xcassets in Resources */,
+				AC16B6561FD1580900291AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B65F1FD1580A00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B66A1FD1580A00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC16B6491FD1580900291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6531FD1580900291AC0 /* ViewController.swift in Sources */,
+				AC16B6511FD1580900291AC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B65D1FD1580A00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6661FD1580A00291AC0 /* Honda_OfficialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6681FD1580A00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6711FD1580A00291AC0 /* Honda_OfficialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC16B6631FD1580A00291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B64C1FD1580900291AC0 /* Honda Official */;
+			targetProxy = AC16B6621FD1580A00291AC0 /* PBXContainerItemProxy */;
+		};
+		AC16B66E1FD1580A00291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B64C1FD1580900291AC0 /* Honda Official */;
+			targetProxy = AC16B66D1FD1580A00291AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC16B6541FD1580900291AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B6551FD1580900291AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC16B6591FD1580900291AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B65A1FD1580900291AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC16B6731FD1580A00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC16B6741FD1580A00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC16B6761FD1580A00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Honda Official/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Honda-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC16B6771FD1580A00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Honda Official/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Honda-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC16B6791FD1580A00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Honda OfficialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Honda-OfficialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honda Official.app/Honda Official";
+			};
+			name = Debug;
+		};
+		AC16B67A1FD1580A00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Honda OfficialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Honda-OfficialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honda Official.app/Honda Official";
+			};
+			name = Release;
+		};
+		AC16B67C1FD1580A00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Honda OfficialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Honda-OfficialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Honda Official";
+			};
+			name = Debug;
+		};
+		AC16B67D1FD1580A00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Honda OfficialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Honda-OfficialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Honda Official";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC16B6481FD1580900291AC0 /* Build configuration list for PBXProject "Honda Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6731FD1580A00291AC0 /* Debug */,
+				AC16B6741FD1580A00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B6751FD1580A00291AC0 /* Build configuration list for PBXNativeTarget "Honda Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6761FD1580A00291AC0 /* Debug */,
+				AC16B6771FD1580A00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B6781FD1580A00291AC0 /* Build configuration list for PBXNativeTarget "Honda OfficialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6791FD1580A00291AC0 /* Debug */,
+				AC16B67A1FD1580A00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B67B1FD1580A00291AC0 /* Build configuration list for PBXNativeTarget "Honda OfficialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B67C1FD1580A00291AC0 /* Debug */,
+				AC16B67D1FD1580A00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC16B6451FD1580900291AC0 /* Project object */;
+}
